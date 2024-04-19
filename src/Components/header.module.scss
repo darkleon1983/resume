@@ -1,0 +1,65 @@
+.menuList  {
+    text-transform: uppercase;
+    cursor: pointer;
+    list-style: none;
+    color: gray;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 50px;
+    li {
+        text-align: center;
+    }
+  }
+.active {
+    font-weight: bold;
+}
+
+.mainContentField {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.item {
+    text-align: center;
+    display: grid;
+}
+
+.card {
+    align-self: center;
+    justify-self:center;
+    width: 50%;
+    height: auto;
+}
+
+.taskCard {
+    font-size: 24px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.positiveResultCard {
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: lightgreen;
+}
+
+.negativeResultCard {
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: pink;
+}
+
+.percentCard {
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.translationCard {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: lightgray; 
+}
