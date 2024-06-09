@@ -1,6 +1,152 @@
-{
-  "id": 1,
-  "word": "divide",
-  "translation": "Делить",
-  "category": "base"
-}
+[
+  {
+    "id": 1,
+    "word": "divide",
+    "translation": "Делить",
+    "category": "base"
+  },
+  {
+    "id": 2,
+    "word": "short hand",
+    "translation": "стенография",
+    "category": "base"
+  },
+  {
+    "id": 3,
+    "word": "review",
+    "translation": "обзор",
+    "category": "base"
+  },
+  {
+    "id": 4,
+    "word": "to clarify",
+    "translation": "уточнять",
+    "category": "base"
+  },
+  {
+    "id": 5,
+    "word": "key points",
+    "translation": "ключевые моменты",
+    "category": "base"
+  },
+  {
+    "id": 6,
+    "word": "to declare",
+    "translation": "объявлять",
+    "category": "base"
+  },
+  {
+    "id": 7,
+    "word": "to refer",
+    "translation": "ссылаться",
+    "category": "base"
+  },
+  {
+    "id": 8,
+    "word": "to discard",
+    "translation": "отбрасывать",
+    "category": "base"
+  },
+  {
+    "id": 9,
+    "word": "interchangeably",
+    "translation": "взаимозаменяемые",
+    "category": "base"
+  },
+  {
+    "id": 10,
+    "word": "to resolve",
+    "translation": "решать",
+    "category": "base"
+  },
+  {
+    "id": 11,
+    "word": "attempt",
+    "translation": "попытка",
+    "category": "base"
+  },
+  {
+    "id": 12,
+    "word": "to persist",
+    "translation": "оставаться, сохраняться",
+    "category": "base"
+  },
+  {
+    "id": 13,
+    "word": "to distinguish",
+    "translation": "различать",
+    "category": "base"
+  },
+  {
+    "id": 14,
+    "word": "to consider",
+    "translation": "считать",
+    "category": "base"
+  },
+  {
+    "id": 15,
+    "word": "obvious",
+    "translation": "очевидный",
+    "category": "base"
+  },
+  {
+    "id": 16,
+    "word": "to compare",
+    "translation": "сравнивать",
+    "category": "base"
+  },
+  {
+    "id": 17,
+    "word": "distinct",
+    "translation": "отчетливый",
+    "category": "base"
+  },
+  {
+    "id": 18,
+    "word": "equal",
+    "translation": "равный",
+    "category": "base"
+  },
+  {
+    "id": 19,
+    "word": "reference",
+    "translation": "ссылка",
+    "category": "base"
+  },
+  {
+    "id": 20,
+    "word": "to assign",
+    "translation": "назначать",
+    "category": "base"
+  },
+  {
+    "id": 21,
+    "word": "explicitly",
+    "translation": "явно, точно, недвусмысленно",
+    "category": "base"
+  },
+  {
+    "id": 22,
+    "word": "to perform",
+    "translation": "выполнять, исполнять",
+    "category": "base"
+  },
+  {
+    "id": 23,
+    "word": "to describe",
+    "translation": "описывать",
+    "category": "base"
+  },
+  {
+    "id": 24,
+    "word": "to determine",
+    "translation": "определять, устанавливать",
+    "category": "base"
+  },
+  {
+    "id": 25,
+    "word": "to imply",
+    "translation": "подразумевать",
+    "category": "base"
+  }
+]

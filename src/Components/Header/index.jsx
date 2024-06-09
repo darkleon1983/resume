@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import styles from "../header.module.scss";
+import React, { useState, useEffect } from "react";
+import styles from "./header.module.scss";
+import cn from "classnames";
 
 function Header() {
   const menuList = [
@@ -8,7 +9,19 @@ function Header() {
     "Поддержать проект",
     "Контакты",
   ];
-  const [activeItem, setActiveItem] = useState(0);
+  const [activeItem, setActiveItem] = useState(null);
+  const [pizzas, setPizzas] = useState([]);
+  const [active, setActive] = useState(null);
+
+  useEffect(() => {
+    fetch("https://63f9b567beec322c57e68ba7.mockapi.io/pizzasItems")
+      .then((res) => res.json())
+      .then((items) => {
+        setPizzas(items);
+      });
+  }, []);
+
+
   return (
     <div className="headerContainer">
       <div className="logo-container">
@@ -43,20 +56,27 @@ function Header() {
         </svg>
       </div>
       <div className="menu-container">
-        <ul className={styles.menuList}>
+        <ul className={cn(styles.menuList)}>
           {menuList.map((item, index) => (
             <li
               onClick={() => setActiveItem(index)}
               key={index}
-              className={activeItem === index ? "active" : ""}
+              className={cn(activeItem === index && styles.active)}
             >
               {item}
             </li>
           ))}
-          {/* <li>Главная страница</li>
-          <li>Тренажер английского</li>
-          <li>Поддержать проект</li>
-          <li>Контакты</li> */}
+          {/* <div className={cn(styles.pizzas)}>
+            {pizzas.map((pizza) => (
+              <li className={styles.item}
+              onClick={(id) => {setActive(pizza.id)
+              console.log(active)} }>
+                <div className={cn(styles.id, active === pizza.id && styles.active)}>{pizza.id}</div>
+                <br />
+                <div className={cn(styles.pizza, active === pizza.id && styles.active)}>{pizza.title}</div>
+              </li>
+            ))}
+          </div> */}
         </ul>
       </div>
     </div>
